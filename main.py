@@ -10,7 +10,7 @@ nodes = [(int(IMG_SIZE/2), int(IMG_SIZE/2))]
 
 while len(nodes) < NOF_NODES:
 	n = choice(nodes)
-	dir = randint(0, 4)
+	dir = randint(0, 3)
 	if dir == 0: 
 		m = n[0] - 1,  n[1]
 	elif dir == 1: 
